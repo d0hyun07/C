@@ -16,7 +16,7 @@ int main(){
 			if(j==n){
 				j=0;
 			}
-				 
+			
 			printf("%d ",arr[j]);
 		}
 		printf("\n");
