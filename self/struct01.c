@@ -10,8 +10,10 @@ typedef struct STUDENT{
 
 int main(){
 	int i,number;
+	
 	scanf("%d",&number);
 	student a[101];
+	
 	for(i=0;i<number;i++){
 		scanf("%d",&a[i].no);
 		scanf("%d",&a[i].inf);
