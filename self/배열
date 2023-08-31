@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main(){
+   
+	char arr[100];
+	gets(arr);
+	
+	for(int i=10;i>=0;i-=2){
+		printf("%c",arr[i]);
+	}
+    return 0;
+}
