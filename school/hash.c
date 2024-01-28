@@ -4,7 +4,7 @@ int hash(int key){
 	return key%n;
 }
 int main(){
-	int key;
+	int key,value;
 	int list[8]={0,0,10,3,2,5,0,0};
 	scanf("%d",&key);
 	int index = hash(key);
@@ -17,7 +17,7 @@ int main(){
 			k++;
 			index=(hash(key)+k)%n;
 			if (t==index){
-				printf("Å½»ö ½ÇÆÐ");
+				printf("Å½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 				break;
 			}
 		}
@@ -25,3 +25,5 @@ int main(){
 	printf("%d",index);
 	return 0;
 }
+
+
